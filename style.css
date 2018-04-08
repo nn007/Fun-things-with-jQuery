@@ -1,0 +1,64 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.one{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: lightblue;
+
+}
+.accordion{
+	visibility: hidden;
+}
+.button{
+	background: lightblue;
+}
+/*.buttonIst{
+	background: lightblue;
+}
+*/
+.banner{	
+	 width: 100%;
+	 height: 400px;
+	 background-image: url("skycraper.jpg") ;
+	 background-repeat: no-repeat;
+	 background-position: center;
+}
+.showHideBanner{
+	visibility: hidden;
+}
+.scrollEffect{
+	margin: 78vh 0;
+}
+.sun{
+	margin: 0 auto;
+	width: 150px;
+	display: block;
+}
+.sunView{
+	visibility: hidden;
+}
+.pHide{
+	visibility: hidden;
+}
+.wrapper{
+	width: 800px;
+	margin: 0 auto;
+	
+}
+.buttonBottom{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	right: 10px;
+	top: 90%;
+	
+}
+.content{
+	visibility: hidden;
+}
